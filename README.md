@@ -9,7 +9,7 @@
 |---|---|
 | OS | Windows 11 + WSL2 Ubuntu |
 | Shell | bash |
-| Docker | `docker --version` 결과 입력 |
+| Docker | Docker version 29.9.2, build a82e528 |
 | Git | git version 2.53.0 |
 | 작업 경로 | `~/codyssey/e1-1` |
 
@@ -25,7 +25,7 @@
 - [x] 바인드 마운트 변경 전후 확인
 - [x] 볼륨 데이터 유지 확인
 - [x] Git 설정 (user.name, user.email, 기본 브랜치)
-- [ ] VS Code GitHub 로그인 증거
+- [x] VS Code GitHub 로그인 증거
 
 ## 3. 터미널 기본 조작
 
@@ -192,3 +192,8 @@ git push -u origin main
 ## 13. 증거 자료
 
 `screenshots/` 폴더에 실행 화면을 모았습니다. 이메일과 토큰 같은 민감 정보는 가렸습니다.
+
+## 14. VS Code GitHub 연동
+VS Code에서 GitHub 계정(FlowMaker97)으로 로그인 완료.
+
+![VS Code GitHub 로그인](screenshots/13_vscode_github_login.png)
