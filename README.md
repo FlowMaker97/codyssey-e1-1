@@ -404,7 +404,22 @@ origin	https://github.com/FlowMaker97/codyssey-e1-1.git (push)
 
 ### Git push 성공 로그
 
-**재현하지 못함.** 과거 push 성공 터미널 로그가 저장소 자료에 없으며, 이번에는 사용자의 요청에 따라 push를 실행하지 않았습니다. remote의 `(push)` 표시는 push 대상 URL이며 실제 전송 성공 로그가 아닙니다. 전송 객체 수·속도·성공 문구를 만들어 넣지 않았습니다.
+2026-11-09에 `~/codyssey/e1-1`에서 직접 실행한 `git push origin main`의 실제 성공 출력입니다. 터미널 화면에 기록된 출력을 옮겼습니다.
+
+```console
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.63 KiB | 4.31 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/FlowMaker97/codyssey-e1-1.git
+   162f855..e9ed591  main -> main
+```
+
+마지막 줄은 GitHub의 `main` 브랜치가 `162f855`에서 `e9ed591`로 갱신되었음을 보여줍니다.
 
 ### 웹 파일 실제 내용
 
